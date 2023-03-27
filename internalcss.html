@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Inline Css</title>
+    
+    <style>
+        p{
+            font-size: 25px;
+            text-decoration: underline red;
+            background-color: aquamarine;
+            color: black;
+        }
+        .mytag{
+            font-size: 40px;
+            background-color: white;
+        }
+        
+        #MY-UNIQUE-TAG{
+            border: 2px solid darkgreen;
+            color:black;
+            font-style: italic;
+            font-size: 20px;
+            text-align: center;
+
+        }
+        #My-tag2{
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Internal css is used to style entire page at once</p>
+    <p>Internal css is applied using style inside head tag</p>
+
+    <p class="mytag" id="My-tag2" style="color:brown">Name selector is used to select element by their tag Name</p>
+    <h1 class="mytag">Class selector are used to select element by their class name</h1>
+
+    <h2 id="MY-UNIQUE-TAG">Id selector is used to select element by their id Name</h2>
+
+    <h3 id="My-tag2"></h3>
+    
+</body>
+</html>

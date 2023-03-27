@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: crimson;
+    text-align: right;
+    margin-right: 10%; 
+    margin-top:
+    size: 20%;
+    
+    
+
+}
+.pp1{
+    font-size: 20px;
+    color: wheat;
+    margin-right:800px ;
+    margin-top:center;
+}
+.from-button{
+    background: none;
+    border: none;
+    color:#ddd;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+    display: inline-block;
+    width: -8px;
+    height: 18px;
+    padding: 5px
+}
+#hh{
+    text-align: left;
+    margin-top: 14%;
+    margin-left: 10%;
+    font-size: 25px;
+    color:  white;
+    display: inline;
+}
+.form-text{
+    width: 100%;
+    pad: 10px ;
+    background: none;
+    border: none;
+    border: #302b2d;
+    color: #ddd;
+    text-transform: uppercase;
+    outline: none;
+    transform: border-color .2s;
+    
+}
+.screen::after{
+    content: ;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.4);
+    z-index: -1;
+}
+.tt{
+    color: #d6c1ca;
+}
+.tt{
+    background-color: #e2d1d1;
+    color: #ddd;
+    font-size: 25px;
+    border:#ee0aa6;
+    padding: 2px;
+    margin-bottom: 5px;
+    
+}
+body,button,input{
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+#pp{
+    background-image: url(contact\ is.jpg);
+    width: 1100px;
+    border: 15px solid green;
+    padding: 75px;
+    margin: 20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    text-align: center;
+}
+.dd{
+    color: black;
+    background-color: black;
+    font-size: large;
+}
+.primary{
+    text-align: left;
+}
+#aa{
+    margin-right: 849px;
+    margin-top: 88px;
+}
+#aa{
+    display: flex;
+    margin-top: 30px;
+}
